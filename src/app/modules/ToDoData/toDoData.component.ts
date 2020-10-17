@@ -6,7 +6,7 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'toDo-Data',
   templateUrl: './toDoData.component.html',
-  styleUrls: ['./toDoData.component.css']
+  styleUrls: ['./toDoData.component.scss']
 })
 export class ToDoListComponent implements OnInit {
   appointmentTime  = new Date();

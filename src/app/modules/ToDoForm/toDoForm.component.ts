@@ -6,7 +6,7 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'toDo-Form',
   templateUrl: './toDoForm.component.html',
-  styleUrls: ['./toDoForm.component.css']
+  styleUrls: ['./toDoForm.component.scss']
 })
 export class ToDoComponent implements OnInit {
   appointmentTime  = new Date();
