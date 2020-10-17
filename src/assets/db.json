@@ -1,0 +1,39 @@
+{
+  "toDo": [
+    {
+      "id": 1,
+      "createdAt": "",
+      "modifiedAt": "",
+      "text": "Today is Dad's Birthday",
+      "title": "Birthday"
+    },
+    {
+      "id": 2,
+      "createdAt": "",
+      "modifiedAt": "",
+      "text": "Need to buy groceries",
+      "title": "Grocessries"
+    },
+    {
+      "id": 3,
+      "createdAt": "",
+      "modifiedAt": "",
+      "text": "Need to pay before 5th of June",
+      "title": "Gas Bill"
+    },
+    {
+      "id": 4,
+      "createdAt": "",
+      "modifiedAt": "",
+      "text": "sqsqsq",
+      "title": "syqgsyqs"
+    },
+    {
+      "id": 5,
+      "createdAt": "",
+      "modifiedAt": "",
+      "text": "",
+      "title": "vv"
+    }
+  ]
+}
