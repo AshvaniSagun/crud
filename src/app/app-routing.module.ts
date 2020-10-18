@@ -1,11 +1,25 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
-
-const routes: Routes = [];
+import { homeComponent } from './home/home.component';
+import {ToDoListComponent} from './component/ToDoData/toDoData.component';
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  declarations: [ 
+    homeComponent
+  ],
+  imports: [
+    RouterModule.forRoot([
+      { path: 'home', component: homeComponent },
+      { path: 'toDo-Data', component: ToDoListComponent },
+      { path: '**', redirectTo: 'home' }
+    ])
+  ],
+  exports: [
+    RouterModule,
+  ],
+  providers: [],
+
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
+
+

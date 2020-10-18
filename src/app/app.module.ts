@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ToDoModule } from './modules/toDo.module';
+import { ToDoModule } from './component/toDo.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from "ngx-spinner";
