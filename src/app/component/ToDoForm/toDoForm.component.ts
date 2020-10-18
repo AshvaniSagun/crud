@@ -9,7 +9,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrls: ['./toDoForm.component.scss']
 })
 export class ToDoComponent implements OnInit {
-  appointmentTime  = new Date();
+  appointmentTime = new Date();
   constructor(
     private toDoService: toDoService,
     private toastrService: ToastrService
